@@ -7,6 +7,22 @@
 // Put the assignment code here
 
 class Quaternion {
+  private:
+  double q1, q2, q3, q4;
+
+  public:
+    Quaternion(){
+      q1(int a){
+        if(a = 0 || a = q1)
+        q1.a=q.a+qA
+      } 
+      q2(int b, i){
+        q2 operator+(const q2)
+      }
+      q3(int c, j){} 
+      q4(int d, k){}
+      bool operator==(const Quaternion)
+    }
 };
 
 //------------------------------
