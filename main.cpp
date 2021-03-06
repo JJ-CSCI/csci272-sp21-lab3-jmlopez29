@@ -8,23 +8,56 @@
 
 class Quaternion {
   private:
-  double q1, q2, q3, q4;
+  double q1;
+  double q2;
+  double q3;
+  double q4;
 
-  public:
-    Quaternion(){
-      q1(int a){
-        if(a = 0 || a = q1)
-        q1.a=q.a+qA
-      } 
-      q2(int b, i){
-        q2 operator+(const q2)
-      }
-      q3(int c, j){} 
-      q4(int d, k){}
-      bool operator==(const Quaternion)
-    }
+  public: Quaternion (double a, double b, double c, double d){
+  q1 = a;
+  q2 = b;
+  q3 = c;
+  q4 = d;
+  Quaternion bool;
+  Quaternion operator+;
+  Quaternion operator-;
+  Quaternion operator*;
+  }
 };
-
+bool Quaternion operator == (const Quaternion &obj){
+  if (q1==obj.q1);
+  if (q2==obj.q2);
+  if (q3==obj.q3);
+  if (q4==obj.q4);
+  Return true;
+  else
+  Return false; 
+}
+Quaternion operator + (Quaternion const &obj){
+  Quaternion evalfun; 
+  evalfun.q1 = q1 + obj.q1; 
+  evalfun.q2 = q2 + obj.q2;
+  evalfun.q3 = q3 + obj.q3;
+  evalfun.q4 = q4 + obj.q4;
+Return evalfun;
+}
+Quaternion operator - (Quaternion const &obj){
+  Quaternion evalfun; 
+  evalfun.q1 = q1 - obj.q1; 
+  evalfun.q2 = q2 - obj.q2;
+  evalfun.q3 = q3 - obj.q3;
+  evalfun.q4 = q4 - obj.q4;
+Return evalfun;
+}
+Quaternion operator * (Quaternion const &obj){
+  Quaternion evalfun; 
+  evalfun.q1 = q1 * obj.q1; 
+  evalfun.q2 = q2 * obj.q2;
+  evalfun.q3 = q3 * obj.q3;
+  evalfun.q4 = q4 * obj.q4;
+Return evalfun;
+}
+}
 //------------------------------
 //   DO NOT MODIFY TEST CASES
 //------------------------------
